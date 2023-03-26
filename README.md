@@ -1,5 +1,5 @@
 # Density-Estimation-and-classification
-In this project, I performed  parameter estimation for a given dataset (which is a subset from the MNIST dataset)
+In this project, I performed  parameter estimation for a given dataset (which is a subset from the MNIST dataset) and did a classification task without using packages.(from scratch)
 
 ## Dataset
 The total number of samples in the training set for digit 7 is 6265 and for digit 8 is
@@ -48,7 +48,9 @@ has the highest posterior probability 𝑝(𝑦|𝑥)
 This is a linear classifier.We are using the original training dataset, which has 784 features,for training logistic regression(LG) model.We define a weight value for each feature and use the gradient ascent algorithm to update the weights by trying to
 maximise the likelihood.We are updating the weights independently.The expression
 for gradient ascent is given below
+
 $$ w^{(k+1)} = w^{(k)}+\eta\nabla_{w^{(k)}}l(w) $$
+
 The $l(w)$ is the log likelihood function and $\eta$ is the learning rate.We used 0.0001 as
 the learning rate .Total number of iteration,while training the model , for updating the
 weights is 10000
