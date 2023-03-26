@@ -1,1 +1,1 @@
-# Density-Estimation-and-classidication
+# Density-Estimation-and-classification
